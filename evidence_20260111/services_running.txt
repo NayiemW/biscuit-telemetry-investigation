@@ -1,0 +1,22 @@
+  avahi-daemon.service               loaded active running Avahi mDNS/DNS-SD Stack                                  
+  biscuit-motiond.service            loaded active running Biscuit Motion Daemon - UDP Motion Controller            
+  bluetooth.service                  loaded active running Bluetooth service                                        
+  cron.service                       loaded active running Regular background program processing daemon             
+  dbus.service                       loaded active running D-Bus System Message Bus                                 
+  dhcpcd.service                     loaded active running DHCP Client Daemon                                       
+  getty@tty1.service                 loaded active running Getty on tty1                                            
+  master_service.service             loaded active running LSB: master service init script.                         
+  ModemManager.service               loaded active running Modem Manager                                            
+  networkd-dispatcher.service        loaded active running Dispatcher daemon for systemd-networkd                   
+  polkit.service                     loaded active running Authorization Manager                                    
+  serial-getty@ttyFIQ0.service       loaded active running Serial Getty on ttyFIQ0                                  
+  ssh.service                        loaded active running OpenBSD Secure Shell server                              
+  systemd-journald.service           loaded active running Journal Service                                          
+  systemd-logind.service             loaded active running Login Service                                            
+  systemd-resolved.service           loaded active running Network Name Resolution                                  
+  systemd-timesyncd.service          loaded active running Network Time Synchronization                             
+  systemd-udevd.service              loaded active running udev Kernel Device Manager                               
+  udhcpd.service                     loaded active running LSB: Start busybox udhcpd at boot time                   
+  unattended-upgrades.service        loaded active running Unattended Upgrades Shutdown                             
+  user@0.service                     loaded active running User Manager for UID 0                                   
+  velocity-helper.service            loaded active running Velocity Helper - SportClient velocity control           

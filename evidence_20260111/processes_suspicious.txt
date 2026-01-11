@@ -1,0 +1,33 @@
+avahi        467  0.1  0.0   7164  3040 ?        Ss   06:48   0:00 avahi-daemon: running [Unitree.local]
+root         688  0.3  0.1 623344  9408 ?        Sl   06:48   0:01 /unitree/module/master_service/master_service
+root         695  0.0  0.0  24760   620 ?        Sl   06:48   0:00 /unitree/module/master_service/master_service
+root         860  0.0  0.0   5256  2504 ?        S    06:48   0:00 /unitree/module/network_manager/upper_bluetooth/btgatt-server -i hci0 -r -v
+root         892  0.3  2.6 392912 216200 ?       Sl   06:48   0:01 /unitree/sbin/iox-roudi
+root         908 50.9  0.2 1604732 16440 ?       Sl   06:48   2:26 /unitree/module/basic_service/basic_service
+root         910  0.0  0.0  30572  1016 ?        Sl   06:48   0:00 /unitree/module/basic_service/basic_service
+root        1083  6.0  0.3 1148580 25092 ?       SLl  06:48   0:16 /unitree/module/audio_hub/audiohub
+root        1101  1.7  0.5 1805160 46088 ?       Sl   06:48   0:04 /bin/python3 /unitree/module/audio_hub/audio_player/audio_player_service.py
+root        1111  0.9  0.3 849508 29264 ?        Sl   06:48   0:02 /bin/python3 /unitree/module/bashrunner/bashrunner.py
+root        1126  9.4  0.1 763536 13284 ?        Sl   06:48   0:26 /unitree/module/battery_guard/battery_guard
+root        1210  1.4  0.7 1291640 57688 ?       Sl   06:48   0:04 /bin/python3 /unitree/module/gesture_recognition/service.py
+root        1245  0.0  0.0  15092  7972 ?        S    06:48   0:00 /unitree/module/video_hub/go2_videohub_rtsp_server
+root        1255  1.1  0.1 927956 15224 ?        Sl   06:48   0:03 /unitree/module/motion_switcher/motion_switcher_service
+root        1277  1.5  0.3 1824896 32208 ?       Sl   06:48   0:04 /bin/python3 /unitree/module/net_switcher/net_switcher.py
+root        1289  6.8  0.2 1125592 20244 ?       Sl   06:48   0:18 /unitree/module/obstacles_avoid/obstacles_avoid
+root        1326  1.6  1.1 2108748 89400 ?       Sl   06:48   0:04 /bin/python3 /unitree/module/pet_go/service.py
+systemd+    1411  0.0  0.0  90668  3952 ?        Ssl  06:48   0:00 /lib/systemd/systemd-timesyncd
+root        1503  6.1  0.5 1210472 44484 ?       Sl   06:48   0:16 /bin/python3 /unitree/module/programming_actuator/actuator_manager.py
+root        1519  1.3  0.3 1459856 32324 ?       Sl   06:48   0:03 /unitree/module/robot_state/robot_state_service
+root        1539  1.0  0.1 689240 12376 ?        Sl   06:48   0:02 /unitree/module/sbus_handle/sbus_handle
+root        1566 17.9  0.3 880820 27636 ?        Sl   06:48   0:48 /unitree/module/unitree_lidar/bin/unitree_lidar_server
+root        1699  1.6  0.6 782188 52948 ?        Sl   06:48   0:04 /unitree/module/unitree_lidar_slam/bin/uslam_server
+root        1815  3.1  0.8 1300472 72728 ?       Sl   06:48   0:08 /unitree/module/utrack/uwb_runner
+root        1824 11.6  0.3 1827032 24856 ?       Sl   06:48   0:30 /unitree/module/video_hub/videohub high
+root        1851 11.5  0.7 772776 60412 ?        Sl   06:48   0:30 /unitree/module/voxel_height_mapping/bin/voxel_height_mapping_dds_node
+root        1950  1.8  0.2 1452560 22592 ?       Sl   06:48   0:04 /unitree/module/vui_service/vui_service
+root        1964  5.6  0.2 773220 16836 ?        Sl   06:48   0:14 /unitree/module/webrtc_bridge/bin/unitreeWebRTCClientMaster
+root        1988  0.3  0.1  18612  9944 ?        S    06:48   0:00 /bin/python3 /unitree/module/webrtc_bridge/src/webrtc_dds_bridge/multicast_responder.py
+root        2017  1.0  0.2 1136260 20360 ?       Sl   06:48   0:02 /unitree/module/webrtc_bridge/src/webrtc_dds_bridge/xfkTon
+root        2328 28.9  1.0 1647572 86732 ?       Sl   06:48   1:14 /unitree/module/mcf/mcf_main
+root       14468  0.0  0.0  10800  2772 ?        Ss   06:53   0:00 bash -c ps aux | grep -iE 'telemetry|upload|sync|mqtt|webrtc|cloud|report|beacon|unitree'
+root       14470  0.0  0.0  10124  1856 ?        S    06:53   0:00 grep -iE telemetry|upload|sync|mqtt|webrtc|cloud|report|beacon|unitree
