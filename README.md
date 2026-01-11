@@ -65,3 +65,19 @@ Add to `/etc/hosts` on the robot:
 
 *Investigation performed: January 2026*
 *Device: Unitree Go2 Pro with Roboverse jailbreak*
+
+## Telemetry Blocked
+
+On January 11, 2026, the following domains were sinkholed in `/etc/hosts`:
+
+```
+127.0.0.1 robot-mqtt.unitree.com
+127.0.0.1 global-robot-mqtt.unitree.com
+127.0.0.1 gpt-proxy.unitree.com
+127.0.0.1 api.siliconflow.cn
+127.0.0.1 oss-global-cdn.unitree.com
+127.0.0.1 www.unitree.com
+```
+
+Verified working - telemetry domains now resolve to localhost.
+
